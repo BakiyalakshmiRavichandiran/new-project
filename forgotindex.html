@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+   <head>
+       <title>Forgot password</title>
+	   <style>
+	   body
+	   {
+	    width:1000px;
+		height:700px;
+		background-image:url(forgot.jpg);
+		background-repeat:no-repeat;
+		}
+		form
+		{
+		 width:500px;
+		 height:300px;
+		 border:2px dotted white;
+		 background-color:blue;
+		 margin-left:450px;
+		 margin-top:200px;
+		 }
+		 h1
+		 {
+		  font-size:40px;
+		  color:white;
+		  text-align:center;
+		  }
+		  #d1 input
+		  {
+		   width:300px;
+		   height:30px;
+		   margin-left:80px;
+		   }
+		   #d2 input
+		  {
+		   width:300px;
+		   height:30px;
+		   margin-left:80px;
+		   margin-top:20px;
+		   }
+		   #d3 button
+		  {
+		   width:200px;
+		   height:30px;
+		   margin-left:150px;
+		   margin-top:20px;
+		   background-color:white;
+			}
+			#d3 button:hover
+			{
+			 background-color:#27D4AB;
+			 }
+	   </style>
+   </head>
+   <body>
+      <form action='resetindex.html' method='post'>
+	         <h1>Reset account password</h1>
+			 <div id='d1'>
+			 <input type='text' id='f1' placeholder='password' minlength='3' maxlength='4' dir='ltr' autofocus required>
+			 </div>
+			 <div id='d2'>
+			 <input type='text' id='f2' placeholder='confirm password' minlength='3' maxlength='7' dir='ltr' required>
+			 </div>
+			 <div id='d3'>
+			 <button type="submit"> Reset Password</button>
+			 </div>
+	  </form>
+	  </body>
+   </html>

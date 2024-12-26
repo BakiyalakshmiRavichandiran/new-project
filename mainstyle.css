@@ -1,0 +1,199 @@
+div
+{
+	width:1500px;
+	height:2000;
+	border:2px solid white;
+	display:grid;
+	grid-template-rows:5% 2.5% 65% 28%;
+}
+header
+{
+	border:2px solid white;
+	position:sticky;
+	top:0px;
+}
+#h1 h1
+{
+	font-size:50px;
+	font-family:cursive;
+	text-align:center;
+	color:#254174;
+	text-shadow:2px 2px 2px #1F5DD1;
+	background-color:#E2EAF4;
+}
+nav
+{
+	border:2px solid yellow;
+	margin-left:3px;
+	background-color:white;
+	margin-top:7px;
+	position:sticky;
+	top:7px;
+}
+nav:hover
+{
+	background-color:#254174;
+}
+a:hover
+{
+	background-color:white;
+	color:black;
+}
+a
+{
+	font-size:20px;
+	font-weight:bolder;
+	text-decoration:none;
+	display:inline-block;
+	background-color:pink;
+	width:245px;
+	height:40px;
+	text-align:center;
+	border-radius:20px;
+}
+main
+{
+	border:2px solid black;
+	display:grid;
+	grid-template-rows:5% 35% 5% 35% 10% 10%;
+	margin-top:4px;
+}
+#s1
+{
+	background-image:url('s1.webp');
+}
+h2:hover
+{
+	color:#B226B6;
+}
+h2
+{
+	font-size:30px;
+	text-align:center;
+	font-family:cursive
+}
+#s2
+{
+	background-image:url('ob.jpg');
+	background-repeat:no-repeat;
+    width:100%;
+	height:100%;
+}
+#s2 h1
+{
+	font-size:30px;
+	color:white;
+	text-align:center;
+	text-weight:bolder;
+}
+table
+{
+	margin-left:20px;
+}
+img
+{
+	margin:10px;
+}
+table p
+{
+	font-size:20px;
+	color:black;
+	font-weight:bolder;
+	padding-left:100px;
+}
+strong
+{
+	color:white;
+}
+#s3
+{
+	background-color:black;
+	width:100%;
+	height:100%;
+}
+#s3 h1
+{
+	font-size:30px;
+	color:white;
+	font-family:cursive;
+	text-align:center;
+}
+#s4
+{
+	background-image:url('wi.jpg');
+	width:100%;
+	height:100%;
+}
+#s4 h1
+{
+	font-size:30px;
+	color:#A0337F;
+	text-align:center;
+	text-weight:bolder;
+}
+#s4 table
+{
+	margin-left:20px;
+}
+#s4 img
+{
+	margin:10px;
+}
+#s4 table p
+{
+	font-size:20px;
+	color:black;
+	font-weight:bolder;
+	padding-left:100px;
+}
+#s4 strong
+{
+	color:#A0337F;
+}
+#S5
+{  
+background-color:#F50DB0;
+width:100%;
+height:100%;
+}
+#S5 h1
+{
+ font-size:30px;
+ color:black;
+ font-weight:bolder;
+ font-family:cursive;
+ text-align:center;
+}
+#p
+ {
+	 font-size:15px;
+	 text-align:justify;
+ }
+ #s6 img
+ {
+	margin-left:250px;
+ }	
+ #s6 p
+ {
+	 margin-left:150px;
+ }
+footer
+{
+	border:2px solid white;
+	background-color:#15153C;
+	color:white;
+}
+footer p
+{
+	font-size:20px;
+	color:white:
+}
+footer table
+{
+	font-size:20px;
+	color:white;
+	width:700px;
+	height:300px;
+	text-align:center;
+	margin-left:300px;
+}
